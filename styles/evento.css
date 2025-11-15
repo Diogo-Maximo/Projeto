@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4f698c67;
+}
+
+h1{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    font-size: 20px;
+    margin: 12px;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #26250D;
+    font-weight: bold;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.evento{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+    height: 100%;
+    
+}
+
+.evento p{
+    padding: 10px;
+    font-size: 20px;
+    width: 400px;
+    color: white;
+    
+}

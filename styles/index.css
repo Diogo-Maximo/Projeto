@@ -3,15 +3,18 @@
     padding: 0;
 }
 
+
+
 header{
     padding: 40px;
     display: flex;
     justify-content: space-around;
-    background-color: aqua;
+    background-color: #4f698c67;
 }
 
 h1{
     cursor: pointer;
+    color: #26250D;
 }
 
 ul{
@@ -29,14 +32,18 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
-    
+    color: #26250D;
+    font-weight: bold; 
+}
+
+h3{
+    color: white;
 }
 
 
 
 .resumo-tic {
-    background: #f8f9fa;
+    background: #f8f9fa00;
     padding: 20px;
     
 }
@@ -60,12 +67,12 @@ a{
 .numero {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #2c3e50;
+    color: #edeef0;
 }
 
 .label {
     font-size: 0.9rem;
-    color: #7f8c8d;
+    color: #cacccc;
 }
 
 .intro-curta {
@@ -110,6 +117,6 @@ a{
     padding: 30px;
     font-size: 25px;
     text-align: justify;
-    
+    color: white;
 }
 
